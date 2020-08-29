@@ -1,5 +1,22 @@
+/*body {
+  background-color: grey;
+}*/
+
+.particles {
+    position:fixed !important;
+    /*background: #FEAC5E;*/
+    background: -webkit-linear-gradient(to right, rgb(41, 78, 148), rgb(72, 56, 128));
+    background: linear-gradient(to right, rgb(41, 78, 148), rgb(72, 56, 128));
+    z-index: -1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
 .App {
   text-align: center;
+  /*background-color: black;*/
 }
 
 .App-logo {
@@ -14,7 +31,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: black;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +45,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+}*/
