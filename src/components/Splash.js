@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { nextWord, startButtonClicked } from '../actions';
-import './WordDisplay.css';
+import '../App.css';
 
 const Splash = (props) => {
 	const onClick = () => {
@@ -12,7 +12,7 @@ const Splash = (props) => {
     }
 
 	return (
-		<div className="word-container">
+		<div className="game-container">
 				<h1>Word Wolf</h1>
 				<button className="ui inverted primary button"
 						onClick={onClick} >Start</button>

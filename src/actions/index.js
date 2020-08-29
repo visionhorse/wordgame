@@ -16,7 +16,7 @@ export const nextWord = () => async (dispatch) => {
 
 export const getNewWord = () => {
 	const activeWordLength = store.getState().wordLength;
-	let wordList;
+	let wordList = fourLetterWords;;
 	switch (activeWordLength) {
 		case 4: wordList = fourLetterWords; break;
 		case 5: wordList = fiveLetterWords; break;
@@ -46,10 +46,13 @@ export const scrambleWordInit = () => {
 };
 
 export const scrambleWord = (referenceWord) => {
-
+	const scrambled = _.shuffle(referenceWord.split('')).join('');
+	if (scrambled === referenceWord) { 
+		return scrambleWord(referenceWord) 
+	} else
 	return {
 		type: 'SCRAMBLE_WORD',
-		payload: _.shuffle(referenceWord.split('')).join('')
+		payload: scrambled
 	}
 };
 
@@ -67,6 +70,7 @@ export const enterAnswer = (userText) => {
 		payload: userText
 	}
 };
+
 
 export const startButtonClicked = (status) => {
 	return {

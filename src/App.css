@@ -1,10 +1,16 @@
-/*body {
-  background-color: grey;
-}*/
+
+.main-container {
+   /*display: flex;*/
+ /* flex-direction: column;
+  justify-content: center;*/
+/*  align-items: center;*/
+  height: 100vh;
+  z-index: 1;
+}
 
 .particles {
     position:fixed !important;
-    /*background: #FEAC5E;*/
+   /* background: #FEAC5E;*/
     background: -webkit-linear-gradient(to right, rgb(41, 78, 148), rgb(72, 56, 128));
     background: linear-gradient(to right, rgb(41, 78, 148), rgb(72, 56, 128));
     z-index: -1;
@@ -14,42 +20,33 @@
     height:100%;
 }
 
-.App {
-  text-align: center;
-  /*background-color: black;*/
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  /*background-color: black;*/
-  min-height: 100vh;
+.game-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-bottom: 3.5rem;
+  height: 88vh;
+  z-index: 1;
+  /*background-color: black;*/
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+    left:0;
+    top:0;
+    width:100%;
+    height: 12vh;
+    
+    border-bottom: 1px solid rgba(103, 246, 247, .2);;
+
 }
 
-/*@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
+h1 {
+  font-size: 4rem;
+  color: #f5f7f7;
+  padding-bottom: 1rem;
+}
+
+.wrong {
+  background-color: #ffb8b3 !important;
+}

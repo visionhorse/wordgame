@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './WordDisplay.css';
+import '../App.css';
 import ButtonGroup from './ButtonGroup';
 import { connect } from 'react-redux';
 import { nextWord, textChange, enterAnswer, startButtonClicked, scrambleWordInit } from '../actions';
@@ -26,6 +26,11 @@ const WordDisplay = (props) => {
 		if (props.enteredText === props.currentWord.word) {
 			props.nextWord();
 			event.target.reset();
+			props.textChange('')
+
+		} else if
+			(!props.enteredText) {
+				props.nextWord();
 		} else {
 			setWrong(true);
 		};
@@ -34,8 +39,9 @@ const WordDisplay = (props) => {
 
 
 		return (
-			<div className="word-container">
+			<div className="game-container">
 				<h1>{props.scrambledWord.scrambledWord}</h1>
+				<br />
 				<form className="ui inverted form" onChange={onChange} onSubmit={onSubmit} >
 					<div className="ui input focus">
   						<input type="text"

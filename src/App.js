@@ -1,6 +1,7 @@
 import React from 'react';
 import WordDisplay from './components/WordDisplay';
 import Splash from './components/Splash';
+import Header from './components/Header';
 import { connect } from 'react-redux';
 import { startButtonClicked } from './actions';
 import Particles from 'react-particles-js';
@@ -11,8 +12,10 @@ const App = (props) => {
 
 
   return (
-    <div>
+   <div className="main-container">
     <Particles className="particles" params={params} />
+    <Header />
+     <div className="game-container">
     {(() => {
         if (!props.gameStarted) {
           return (
@@ -28,6 +31,7 @@ const App = (props) => {
             );
         }
       })()};
+    </div>
     </div>
     )
 };

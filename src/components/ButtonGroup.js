@@ -13,13 +13,16 @@ const ButtonGroup = (props) => {
 	}
 
 	return (
-		<div className="ui buttons">
-  			<button className="ui blue basic button" onClick={() => onClick(4)} id='4'>4</button>
-  			<button className="ui blue basic button" onClick={() => onClick(5)} id='5'>5</button>
-  			<button className="ui blue basic button" onClick={() => onClick(6)} id='6'>6</button>
-  			<button className="ui blue basic button" onClick={() => onClick(7)} id='7'>7</button>
-  			<button className="ui blue basic button" onClick={() => onClick(8)} id='8'>8</button>
-		</div>
+			
+			<div className="ui buttons">
+  				<button className="ui blue basic button" onClick={() => onClick(4)} id='4'>4</button>
+  				<button className="ui blue basic button" onClick={() => onClick(5)} id='5'>5</button>
+  				<button className="ui blue basic button" onClick={() => onClick(6)} id='6'>6</button>
+  				<button className="ui blue basic button" onClick={() => onClick(7)} id='7'>7</button>
+  				<button className="ui blue basic button" onClick={() => onClick(8)} id='8'>8</button>
+			</div>
+			
+		
 		);
 };
 
