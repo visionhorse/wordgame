@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 import ButtonGroup from './ButtonGroup';
 import { connect } from 'react-redux';
-import { nextWord, textChange, enterAnswer, startButtonClicked, scrambleWordInit } from '../actions';
+import { nextWord, textChange, enterAnswer, startButtonClicked, scrambleWordInit, addPoints, wordLength } from '../actions';
 
 
 
@@ -23,11 +23,12 @@ const WordDisplay = (props) => {
 	const onSubmit = event => {
 		event.preventDefault();
 		props.enterAnswer(props.enteredText);
-		if (props.enteredText === props.currentWord.word) {
-			props.nextWord();
+		if (props.enteredText === props.currentWord.word || 
+			props.currentWord.alternates && props.currentWord.alternates.includes(props.enteredText)) {
+			correctAnswer();
 			event.target.reset();
+			props.nextWord();
 			props.textChange('')
-
 		} else if
 			(!props.enteredText) {
 				props.nextWord();
@@ -36,6 +37,26 @@ const WordDisplay = (props) => {
 		};
 
 	};
+
+	const correctAnswer = () => {
+
+		switch(props.wordLength) {
+			case 4:
+				return props.addPoints(props.points + 100)
+			case 5:
+				return props.addPoints(props.points + 300)
+			case 6:
+				return props.addPoints(props.points + 660)
+			case 7:
+				return props.addPoints(props.points + 900)
+			case 8:
+				return props.addPoints(props.points + 1300)
+			default:
+				return;
+			}
+	};
+
+	
 
 
 		return (
@@ -64,12 +85,14 @@ const mapStateToProps = state => {
 	return { currentWord: state.currentWord,
 			gameStarted: state.gameStarted,
 			enteredText: state.textChange.enteredText,
-			scrambledWord: state.scrambledWord
+			scrambledWord: state.scrambledWord,
+			wordLength: state.wordLength,
+			points: state.points
 			 }
 	};
 
 
-export default connect(mapStateToProps, { nextWord, textChange, enterAnswer, startButtonClicked, scrambleWordInit })(WordDisplay);
+export default connect(mapStateToProps, { nextWord, textChange, enterAnswer, startButtonClicked, scrambleWordInit, addPoints })(WordDisplay);
 
 
 

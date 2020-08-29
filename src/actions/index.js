@@ -26,7 +26,7 @@ export const getNewWord = () => {
 	}
 	return {
 		type: 'NEW_WORD',
-		payload: _.shuffle(wordList)[0].word
+		payload: _.shuffle(wordList)[0]
 	}
 }
 
@@ -78,3 +78,13 @@ export const startButtonClicked = (status) => {
 		payload: status
 	}
 }; 
+
+export const addPoints = (pointsToBeAdded) => {
+	return {
+		type:'NEW_POINTS',
+		payload: pointsToBeAdded
+	}
+};
+
+
+

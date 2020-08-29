@@ -5,6 +5,7 @@ import textChangeReducer from './textChangeReducer';
 import answerReducer from './answerReducer';
 import scrambleWordReducer from './scrambleWordReducer';
 import wordLengthReducer from './wordLengthReducer';
+import pointsReducer from './pointsReducer';
 
 export default combineReducers({
 	currentWord: newWordReducer,
@@ -12,5 +13,6 @@ export default combineReducers({
 	textChange: textChangeReducer,
 	enteredAnswer: answerReducer,
 	scrambledWord: scrambleWordReducer,
-	wordLength: wordLengthReducer
+	wordLength: wordLengthReducer,
+	points: pointsReducer
 });
