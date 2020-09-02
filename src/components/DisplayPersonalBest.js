@@ -3,22 +3,30 @@ import { connect } from 'react-redux';
 import { Animated } from 'react-animated-css';
 import '../App.css';
 
-const PointsDisplay = (props) => {
+const DisplayPersonalBest = (props) => {
 	
+	if (props.personalBest) {
 	return (
+		<div>
 		<Animated animationIn="pulse" isVisible={true}>
 		<Animated animationIn="fadeIn" isVisible={true}>
 
 		<div className="header-items">
-			<h2 className="greenFade">{props.points}</h2>
+			<h2 className="greenFade">PB: {props.personalBest}</h2>
 		</div>
 		</Animated></Animated>
-		)
+		</div>
+		);
+	} else {
+		return (
+			<div></div>
+			);
+	}
 };
 
 const mapStateToProps = state => {
-	return { points: state.points
+	return { personalBest: state.personalBest
 			 }
 	};
 
-export default connect(mapStateToProps, {})(PointsDisplay);
+export default connect(mapStateToProps, {})(DisplayPersonalBest);

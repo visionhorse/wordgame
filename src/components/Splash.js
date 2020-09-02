@@ -1,12 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { nextWord, startButtonClicked } from '../actions';
+import { nextWord, startButtonClicked, setTimeRemaining } from '../actions';
 import '../App.css';
 
 const Splash = (props) => {
 	const onClick = () => {
      props.startButtonClicked(true);
-     
+     props.setTimeRemaining(180);
      props.nextWord();
      // props.scrambleWordInit();
     }
@@ -30,4 +30,4 @@ const mapStateToProps = state => {
   };
 
 
-export default connect(mapStateToProps, { startButtonClicked, nextWord })(Splash);
+export default connect(mapStateToProps, { startButtonClicked, nextWord, setTimeRemaining })(Splash);

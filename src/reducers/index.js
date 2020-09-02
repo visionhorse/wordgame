@@ -6,6 +6,9 @@ import answerReducer from './answerReducer';
 import scrambleWordReducer from './scrambleWordReducer';
 import wordLengthReducer from './wordLengthReducer';
 import pointsReducer from './pointsReducer';
+import gameOverReducer from './gameOverReducer';
+import timeRemainingReducer from './timeRemainingReducer';
+import personalBestReducer from './personalBestReducer';
 
 export default combineReducers({
 	currentWord: newWordReducer,
@@ -14,5 +17,8 @@ export default combineReducers({
 	enteredAnswer: answerReducer,
 	scrambledWord: scrambleWordReducer,
 	wordLength: wordLengthReducer,
-	points: pointsReducer
+	points: pointsReducer,
+	gameOver: gameOverReducer,
+	timeRemaining: timeRemainingReducer,
+	personalBest: personalBestReducer
 });

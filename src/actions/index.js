@@ -23,6 +23,7 @@ export const getNewWord = () => {
 		case 6: wordList = sixLetterWords; break;
 		case 7: wordList = sevenLetterWords; break;
 		case 8: wordList = eightLetterWords; break;
+		default: wordList = fourLetterWords;
 	}
 	return {
 		type: 'NEW_WORD',
@@ -71,10 +72,17 @@ export const enterAnswer = (userText) => {
 	}
 };
 
+export const setTimeRemaining = (time) => {
+	return {
+		type: 'TIME_REMAINING',
+		payload: time
+	}
+}
+
 
 export const startButtonClicked = (status) => {
 	return {
-		type: 'GAME_START',
+		type: 'GAME_ACTIVE',
 		payload: status
 	}
 }; 
@@ -85,6 +93,20 @@ export const addPoints = (pointsToBeAdded) => {
 		payload: pointsToBeAdded
 	}
 };
+
+export const setGameOver = (status) => {
+	return {
+		type: 'GAME_OVER_STATUS',
+		payload: status
+	}
+}
+
+export const setPersonalBest = (score) => {
+	return {
+		type: 'PERSONAL_BEST',
+		payload: score
+	}
+}
 
 
 

@@ -39,21 +39,48 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 30px;
     
     border-bottom: 1px solid rgba(103, 246, 247, .2);;
 
+}
+
+.header-title {
+  margin-right: auto;
+  padding-left: 30px;
 }
 
 h1 {
   font-size: 4rem;
   color: #f5f7f7;
   padding-bottom: 1rem;
+  letter-spacing: 0.2rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
   font-size: 2rem;
   color: #f5f7f7;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.header-items {
+  padding: 15px;
+}
+
+.greenFade {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+    @keyframes fadein {
+    0% { color: #6cf542; }
+    70% { color: #6cf542; }
+    100%  { color: #f5f7f7; }
 
 }
 

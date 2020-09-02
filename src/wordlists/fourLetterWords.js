@@ -254,7 +254,7 @@ export const fourLetterWords = [
   },
   {
     "word": "arid",
-    alternates: []
+    alternates: ["raid"]
   },
   {
     "word": "arks",
@@ -987,13 +987,15 @@ export const fourLetterWords = [
     alternates: ["stub", "buts"]
   },
   {
-    "word": "busy"
+    "word": "busy",
+    alternates: ["buys"]
   },
   {
     "word": "butt"
   },
   {
-    "word": "buys"
+    "word": "buys",
+    alternates: ["busy"]
   },
   {
     "word": "buzz"
@@ -1067,9 +1069,6 @@ export const fourLetterWords = [
     "word": "caps"
   },
   {
-    "word": "carb"
-  },
-  {
     "word": "card"
   },
   {
@@ -1077,7 +1076,8 @@ export const fourLetterWords = [
     alternates: ["race"]
   },
   {
-    "word": "carp"
+    "word": "carp",
+    alternates: ["crap"]
   },
   {
     "word": "cars",
@@ -1148,9 +1148,6 @@ export const fourLetterWords = [
   },
   {
     "word": "chef"
-  },
-  {
-    "word": "chem"
   },
   {
     "word": "chew"
@@ -1261,9 +1258,6 @@ export const fourLetterWords = [
     "word": "code"
   },
   {
-    "word": "cods"
-  },
-  {
     "word": "coed",
     alternates: ["code"]
   },
@@ -1359,7 +1353,8 @@ export const fourLetterWords = [
     "word": "cosy"
   },
   {
-    "word": "cots"
+    "word": "cots",
+    alternates: ["cost"]
   },
   {
     "word": "coup"
@@ -1645,7 +1640,7 @@ export const fourLetterWords = [
   },
   {
     "word": "diet",
-    alternates: ["tide"]
+    alternates: ["tide", "edit", "tied"]
   },
   {
     "word": "digs"
@@ -1687,7 +1682,8 @@ export const fourLetterWords = [
     "word": "diva"
   },
   {
-    "word": "dive"
+    "word": "dive",
+    alternates: ["vied"]
   },
   {
     "word": "dock"
@@ -1850,7 +1846,7 @@ export const fourLetterWords = [
   },
   {
     "word": "dues",
-    alternates: ["used"]
+    alternates: ["used", "sued"]
   },
   {
     "word": "duet"
@@ -1931,7 +1927,8 @@ export const fourLetterWords = [
     alternates: ["sate", "eats"]
   },
   {
-    "word": "easy"
+    "word": "easy",
+    alternates: ["ayes"]
   },
   {
     "word": "eats",
@@ -1954,7 +1951,7 @@ export const fourLetterWords = [
   },
   {
     "word": "edit",
-    alternates: ["tide", "diet"]
+    alternates: ["tide", "diet", "tied"]
   },
   {
     "word": "eels"
@@ -2263,7 +2260,8 @@ export const fourLetterWords = [
     "word": "flop"
   },
   {
-    "word": "flow"
+    "word": "flow",
+    alternates: ["wolf"]
   },
   {
     "word": "flue",
@@ -2976,7 +2974,7 @@ export const fourLetterWords = [
   },
   {
     "word": "hoes",
-    alternates: ["hose"]
+    alternates: ["hose", "shoe"]
   },
   {
     "word": "hogs",
@@ -3428,7 +3426,8 @@ export const fourLetterWords = [
     "word": "kill"
   },
   {
-    "word": "kiln"
+    "word": "kiln",
+    alternates: ["link"]
   },
   {
     "word": "kilo"
@@ -3733,7 +3732,8 @@ export const fourLetterWords = [
     "word": "line"
   },
   {
-    "word": "link"
+    "word": "link",
+    alternates: ["kiln"]
   },
   {
     "word": "lino",
@@ -4375,7 +4375,8 @@ export const fourLetterWords = [
     "word": "muss"
   },
   {
-    "word": "must"
+    "word": "must",
+    alternates: ["smut"]
   },
   {
     "word": "mute"
@@ -4479,11 +4480,11 @@ export const fourLetterWords = [
   },
   {
     "word": "nest",
-    alternates: ["sent", "nets"]
+    alternates: ["sent", "nets", "tens"]
   },
   {
     "word": "nets",
-    alternates: ["sent", "nest"]
+    alternates: ["sent", "nest", "tens"]
   },
   {
     "word": "news",
@@ -4912,7 +4913,7 @@ export const fourLetterWords = [
   },
   {
     "word": "pays",
-    alternates: ["spay"]
+    alternates: ["spay", "yaps"]
   },
   {
     "word": "peak"
@@ -5384,7 +5385,8 @@ export const fourLetterWords = [
     "word": "rags"
   },
   {
-    "word": "raid"
+    "word": "raid",
+    alternates: ["arid"]
   },
   {
     "word": "rail",
@@ -5716,7 +5718,8 @@ export const fourLetterWords = [
     "word": "rung"
   },
   {
-    "word": "runs"
+    "word": "runs",
+    alternates: ["urns"]
   },
   {
     "word": "runt"
@@ -5910,7 +5913,7 @@ export const fourLetterWords = [
   },
   {
     "word": "sent",
-    alternates: ["tens"]
+    alternates: ["tens", "nets", "nest"]
   },
   {
     "word": "sept",
@@ -5973,7 +5976,7 @@ export const fourLetterWords = [
   },
   {
     "word": "shoe",
-    alternates: ["hoes"]
+    alternates: ["hoes", "hose"]
   },
   {
     "word": "shoo"
@@ -6013,7 +6016,8 @@ export const fourLetterWords = [
     "word": "sigh"
   },
   {
-    "word": "sign"
+    "word": "sign",
+    alternates: ["sing"]
   },
   {
     "word": "silk"
@@ -6033,28 +6037,30 @@ export const fourLetterWords = [
     "word": "sine"
   },
   {
-    "word": "sing"
+    "word": "sing",
+    alternates: ["sign"]
   },
   {
-    "word": "sink"
+    "word": "sink",
+    alternates: ["skin"]
   },
   {
     "word": "sins"
   },
   {
-    "word": "sips"
+    "word": "sips",
+    alternates: ["piss"]
   },
   {
-    "word": "sire"
+    "word": "sire",
+    alternates: ["rise", "ires"]
   },
   {
     "word": "sirs"
   },
   {
-    "word": "site"
-  },
-  {
-    "word": "sith"
+    "word": "site",
+    alternates: ["ties"]
   },
   {
     "word": "sits"
@@ -6066,40 +6072,51 @@ export const fourLetterWords = [
     "word": "skew"
   },
   {
-    "word": "skid"
+    "word": "skid",
+    alternates: ["kids"]
   },
   {
     "word": "skim"
   },
   {
-    "word": "skin"
+    "word": "skin",
+    alternates:["sink"]
   },
   {
-    "word": "skip"
+    "word": "skip",
+    alternates: ["kips"]
   },
   {
-    "word": "skis"
+    "word": "skis",
+    alternates: ["kiss"]
   },
   {
-    "word": "skit"
+    "word": "skit",
+    alternates: ["kits"]
   },
   {
-    "word": "slab"
+    "word": "slab",
+    alternates: ["labs"]
   },
   {
-    "word": "slag"
+    "word": "slag",
+    alternates: ["lags", "gals"]
   },
   {
-    "word": "slam"
+    "word": "slam",
+    alternates: ["alms"]
   },
   {
-    "word": "slap"
+    "word": "slap",
+    alternates: ["pals", "alps"]
   },
   {
-    "word": "slaw"
+    "word": "slaw",
+    alternates: ["laws"]
   },
   {
-    "word": "slay"
+    "word": "slay",
+    alternates: ["lays"]
   },
   {
     "word": "sled"
@@ -6108,37 +6125,48 @@ export const fourLetterWords = [
     "word": "slew"
   },
   {
-    "word": "slid"
+    "word": "slid",
+    alternates: ["lids"]
   },
   {
-    "word": "slim"
+    "word": "slim",
+    alternates: []
   },
   {
-    "word": "slip"
+    "word": "slip",
+    alternates: ["lips", "lisp"]
   },
   {
-    "word": "slit"
+    "word": "slit",
+    alternates: ["list", "silt"]
   },
   {
-    "word": "slob"
+    "word": "slob",
+    alternates: ["lobs"]
   },
   {
-    "word": "sloe"
+    "word": "sloe",
+    alternates: ["sole"]
   },
   {
-    "word": "slog"
+    "word": "slog",
+    alternates: ["logs"]
   },
   {
-    "word": "slop"
+    "word": "slop",
+    alternates: ["lops"]
   },
   {
-    "word": "slot"
+    "word": "slot",
+    alternates: ["lots"]
   },
   {
-    "word": "slow"
+    "word": "slow",
+    alternates: ["lows", "owls"]
   },
   {
-    "word": "slug"
+    "word": "slug",
+    alternates: ["lugs"]
   },
   {
     "word": "slum"
@@ -6150,82 +6178,101 @@ export const fourLetterWords = [
     "word": "slut"
   },
   {
-    "word": "smog"
+    "word": "smog",
+    alternates: ["mogs"]
   },
   {
-    "word": "smug"
+    "word": "smug",
+    alternates: ["mugs", "gums"]
   },
   {
-    "word": "smut"
+    "word": "smut",
+    alternates: ["must"]
   },
   {
-    "word": "snag"
+    "word": "snag",
+    alternates: ["nags", "sang"]
   },
   {
-    "word": "snap"
+    "word": "snap",
+    alternates: ["pans", "naps"]
   },
   {
-    "word": "snip"
+    "word": "snip",
+    alternates: ["nips", "pins"]
   },
   {
-    "word": "snob"
+    "word": "snob",
+    alternates: ["nobs"]
   },
   {
-    "word": "snog"
+    "word": "snog",
+    alternates: ["song"]
   },
   {
-    "word": "snot"
+    "word": "snot",
+    alternates: ["tons"]
   },
   {
-    "word": "snow"
+    "word": "snow",
+    alternates: []
   },
   {
-    "word": "snub"
+    "word": "snub",
+    alternates: ["buns", "nubs"]
   },
   {
-    "word": "snug"
+    "word": "snug",
+    alternates: ["guns", "sung"]
   },
   {
-    "word": "soak"
+    "word": "soak",
+    alternates: ["oaks"]
   },
   {
-    "word": "soap"
+    "word": "soap",
+    alternates: []
   },
   {
-    "word": "soar"
+    "word": "soar",
+    alternates: ["oars"]
   },
   {
-    "word": "sobs"
+    "word": "sobs",
+    alternates: ["boss"]
   },
   {
     "word": "sock"
   },
   {
-    "word": "soda"
+    "word": "soda",
   },
   {
-    "word": "sods"
+    "word": "sods",
+    alternates: ["doss"]
   },
   {
-    "word": "sofa"
+    "word": "sofa",
+    alternates: ["oafs"]
   },
   {
-    "word": "soft"
+    "word": "soft",
+    alternates: []
   },
   {
-    "word": "soil"
+    "word": "soil",
+    alternates: ["oils", "silo", "soli"]
   },
   {
     "word": "sold"
   },
   {
-    "word": "sole"
+    "word": "sole",
+    alternates: ["sloe"]
   },
   {
-    "word": "soli"
-  },
-  {
-    "word": "solo"
+    "word": "solo",
+    alternates: ["loos"]
   },
   {
     "word": "soma"
@@ -6234,43 +6281,50 @@ export const fourLetterWords = [
     "word": "some"
   },
   {
-    "word": "song"
+    "word": "song",
+    alternates: ["snog"]
   },
   {
-    "word": "sons"
+    "word": "sons",
+    alternates: []
   },
   {
-    "word": "soon"
+    "word": "soon",
+    alternates: []
   },
   {
-    "word": "soot"
+    "word": "soot",
+    alternates: []
   },
   {
     "word": "sops"
   },
   {
-    "word": "sore"
+    "word": "sore",
+    alternates: ["rose", "ores", "eros"]
   },
   {
-    "word": "sort"
+    "word": "sort",
+    alternates: []
   },
   {
-    "word": "sots"
-  },
-  {
-    "word": "souk"
+    "word": "sots",
+    alternates: ["toss"]
   },
   {
     "word": "soul"
   },
   {
-    "word": "soup"
+    "word": "soup",
+    alternates: ["opus"]
   },
   {
-    "word": "sour"
+    "word": "sour",
+    alternates: ["ours"]
   },
   {
-    "word": "sown"
+    "word": "sown",
+    alternates: ["owns", "snow"]
   },
   {
     "word": "sows"
@@ -6279,100 +6333,103 @@ export const fourLetterWords = [
     "word": "soya"
   },
   {
-    "word": "spam"
+    "word": "spam",
+    alternates: ["maps", "amps"]
   },
   {
-    "word": "span"
+    "word": "span",
+    alternates: ["naps"]
   },
   {
-    "word": "spar"
+    "word": "spar",
+    alternates: ["raps", "rasp"]
   },
   {
-    "word": "spas"
+    "word": "fuck"
   },
   {
-    "word": "spat"
+    "word": "spat",
+    alternates: ["past", "taps", "pats"]
   },
   {
-    "word": "spay"
+    "word": "spay",
+    alternates: ["pays", "yaps"]
   },
   {
-    "word": "spec"
+    "word": "spin",
+    alternates: ["pins", "nips"]
   },
   {
-    "word": "sped"
+    "word": "spit",
+    alternates: ["pits", "tips"]
   },
   {
-    "word": "spew"
+    "word": "spot",
+    alternates: ["post", "pots", "opts"]
   },
   {
-    "word": "spin"
+    "word": "spud",
+    alternates: ["puds"]
   },
   {
-    "word": "spit"
-  },
-  {
-    "word": "spiv"
-  },
-  {
-    "word": "spot"
-  },
-  {
-    "word": "spry"
-  },
-  {
-    "word": "spud"
-  },
-  {
-    "word": "spun"
+    "word": "spun",
+    alternates: ["puns"]
   },
   {
     "word": "spur"
   },
   {
-    "word": "stab"
+    "word": "stab",
+    alternates: ["tabs", "bats"]
   },
   {
-    "word": "stag"
+    "word": "stag",
+    alternates: ["tags"]
   },
   {
-    "word": "star"
+    "word": "star",
+    alternates: ["rats", "arts", "tars"]
   },
   {
-    "word": "stat"
+    "word": "stat",
+    alternates: ["tats"]
   },
   {
     "word": "stay"
   },
   {
-    "word": "stem"
+    "word": "stem",
   },
   {
-    "word": "step"
+    "word": "step",
+    alternates: ["pets", "pest"]
   },
   {
-    "word": "stew"
+    "word": "stew",
+    alternates: ["west", "wets"]
   },
   {
     "word": "stir"
   },
   {
-    "word": "stop"
+    "word": "stop",
+    alternates: ["pots", "pots", "tops", "opts"]
   },
   {
-    "word": "stow"
+    "word": "stow",
+    alternates: ["tows"]
   },
   {
-    "word": "stub"
+    "word": "stub",
+    alternates: ["tubs", "buts", "bust"]
   },
   {
-    "word": "stud"
+    "word": "stud",
+    alternates: ["dust"]
   },
   {
-    "word": "stun"
-  },
-  {
-    "word": "stye"
+    "word": "stun",
+    alternates: ["nuts", "tuns"]
   },
   {
     "word": "subs"
@@ -6381,7 +6438,8 @@ export const fourLetterWords = [
     "word": "such"
   },
   {
-    "word": "suck"
+    "word": "suck",
+    alternates: ["cusk"]
   },
   {
     "word": "suds"
@@ -6399,16 +6457,15 @@ export const fourLetterWords = [
     "word": "sulk"
   },
   {
-    "word": "sulu"
-  },
-  {
     "word": "sumo"
   },
   {
-    "word": "sums"
+    "word": "sums",
+    alternates: ["muss"]
   },
   {
-    "word": "sung"
+    "word": "sung",
+    alternates: ["sung", "guns"]
   },
   {
     "word": "sunk"
@@ -6417,10 +6474,12 @@ export const fourLetterWords = [
     "word": "suns"
   },
   {
-    "word": "sure"
+    "word": "sure",
+    alternates: ["ruse", "user"]
   },
   {
-    "word": "surf"
+    "word": "surf",
+    alternates: ["furs"]
   },
   {
     "word": "suss"
@@ -6429,31 +6488,34 @@ export const fourLetterWords = [
     "word": "swab"
   },
   {
-    "word": "swag"
+    "word": "swag",
+    alternates: ["wags"]
   },
   {
     "word": "swam"
   },
   {
-    "word": "swan"
+    "word": "swan",
+    alternates: ["sawn"]
   },
   {
-    "word": "swap"
+    "word": "swap",
+    alternates: ["paws", "wasp"]
   },
   {
-    "word": "swat"
+    "word": "swat",
+    alternates: ["twas"]
   },
   {
-    "word": "sway"
+    "word": "sway",
+    alternates: ["ways", "yaws"]
   },
   {
-    "word": "swig"
+    "word": "swig",
+    alternates: ["wigs"]
   },
   {
     "word": "swim"
-  },
-  {
-    "word": "swot"
   },
   {
     "word": "swum"
@@ -6462,31 +6524,33 @@ export const fourLetterWords = [
     "word": "sync"
   },
   {
-    "word": "tabs"
+    "word": "tabs",
+    alternates: ["bats", "stab"]
   },
   {
     "word": "tack"
   },
   {
-    "word": "taco"
+    "word": "taco",
+    alternates: ["coat"]
   },
   {
     "word": "tact"
   },
   {
-    "word": "tags"
+    "word": "tags",
+    alternates: ["stag"]
   },
   {
     "word": "tail"
   },
   {
-    "word": "take"
+    "word": "take",
+    alternates: ["teak"]
   },
   {
-    "word": "talc"
-  },
-  {
-    "word": "tale"
+    "word": "tale",
+    alternates: ["late", "teal"]
   },
   {
     "word": "talk"
@@ -6495,40 +6559,46 @@ export const fourLetterWords = [
     "word": "tall"
   },
   {
-    "word": "tame"
+    "word": "tame",
+    alternates: ["mate", "team", "meat", "meta"]
   },
   {
-    "word": "tang"
+    "word": "tang",
+    alternates: ["gnat"]
   },
   {
     "word": "tank"
   },
   {
-    "word": "tans"
+    "word": "tans",
+    alternates: ["ants"]
   },
   {
-    "word": "tape"
+    "word": "tape",
+    alternates: ["pate", "peat"]
   },
   {
-    "word": "taps"
+    "word": "taps",
+    alternates: ["past", "pats", "spat"]
   },
   {
-    "word": "tarn"
+    "word": "tarn",
+    alternates: ["rant"]
   },
   {
-    "word": "tars"
+    "word": "tars",
+    alternates: ["rats", "arts", "tsar"]
   },
   {
-    "word": "tart"
-  },
-  {
-    "word": "tase"
+    "word": "tart",
+    alternates: []
   },
   {
     "word": "task"
   },
   {
-    "word": "tats"
+    "word": "tats",
+    alternates: ["stat"]
   },
   {
     "word": "taut"
@@ -6537,19 +6607,24 @@ export const fourLetterWords = [
     "word": "taxi"
   },
   {
-    "word": "teak"
+    "word": "teak",
+    alternates: ["take"]
   },
   {
-    "word": "teal"
+    "word": "teal",
+    alternates: ["late", "tale"]
   },
   {
-    "word": "team"
+    "word": "team",
+    alternates: ["meat", "mate", "meta", "tame"]
   },
   {
-    "word": "tear"
+    "word": "tear",
+    alternates: ["rate"]
   },
   {
-    "word": "teas"
+    "word": "teas",
+    alternates: ["seat", "sate", "eats"]
   },
   {
     "word": "teat"
@@ -6573,10 +6648,8 @@ export const fourLetterWords = [
     "word": "temp"
   },
   {
-    "word": "tend"
-  },
-  {
-    "word": "tens"
+    "word": "tend",
+    alternates: ["dent"]
   },
   {
     "word": "tent"
@@ -6585,7 +6658,8 @@ export const fourLetterWords = [
     "word": "term"
   },
   {
-    "word": "tern"
+    "word": "tern",
+    alternates: ["rent"]
   },
   {
     "word": "test"
@@ -6600,13 +6674,15 @@ export const fourLetterWords = [
     "word": "that"
   },
   {
-    "word": "thaw"
+    "word": "thaw",
+    alternates: ["what"]
   },
   {
     "word": "thee"
   },
   {
-    "word": "them"
+    "word": "them",
+    alternates: ["meth"]
   },
   {
     "word": "then"
@@ -6615,10 +6691,12 @@ export const fourLetterWords = [
     "word": "they"
   },
   {
-    "word": "thin"
+    "word": "thin",
+    alternates: ["hint"]
   },
   {
-    "word": "this"
+    "word": "this",
+    alternates: ["shit"]
   },
   {
     "word": "thou"
@@ -6630,7 +6708,8 @@ export const fourLetterWords = [
     "word": "thug"
   },
   {
-    "word": "thus"
+    "word": "thus",
+    alternates: ["shut"]
   },
   {
     "word": "tick"
@@ -6639,19 +6718,23 @@ export const fourLetterWords = [
     "word": "tics"
   },
   {
-    "word": "tide"
+    "word": "tide",
+    alternates: ["edit", "diet", "tied"]
   },
   {
     "word": "tidy"
   },
   {
-    "word": "tied"
+    "word": "tied",
+    alternates: ["edit", "diet", "tide"]
   },
   {
-    "word": "tier"
+    "word": "tier",
+    alternates: ["tire"]
   },
   {
-    "word": "ties"
+    "word": "ties",
+    alternates: ["site"]
   },
   {
     "word": "tiff"
@@ -6669,13 +6752,15 @@ export const fourLetterWords = [
     "word": "tilt"
   },
   {
-    "word": "time"
+    "word": "time",
+    alternates: ["mite", "item"]
   },
   {
     "word": "ting"
   },
   {
-    "word": "tins"
+    "word": "tins",
+    alternates: ["nits"]
   },
   {
     "word": "tint"
@@ -6684,10 +6769,12 @@ export const fourLetterWords = [
     "word": "tiny"
   },
   {
-    "word": "tips"
+    "word": "tips",
+    alternates: ["pits"]
   },
   {
-    "word": "tire"
+    "word": "tire",
+    alternates: ["tier"]
   },
   {
     "word": "tits"
@@ -6696,7 +6783,8 @@ export const fourLetterWords = [
     "word": "toad"
   },
   {
-    "word": "toed"
+    "word": "toed",
+    alternates: ["dote"]
   },
   {
     "word": "toes"
@@ -6708,10 +6796,8 @@ export const fourLetterWords = [
     "word": "tofu"
   },
   {
-    "word": "toga"
-  },
-  {
-    "word": "togs"
+    "word": "toga",
+    alternates: ["goat"]
   },
   {
     "word": "toil"
@@ -6720,7 +6806,8 @@ export const fourLetterWords = [
     "word": "toke"
   },
   {
-    "word": "told"
+    "word": "told",
+    alternates: ["dolt"]
   },
   {
     "word": "toll"
@@ -6729,25 +6816,26 @@ export const fourLetterWords = [
     "word": "tomb"
   },
   {
-    "word": "tome"
+    "word": "tome",
+    alternates: ["mote"]
   },
   {
-    "word": "toms"
+    "word": "toms",
+    alternates: ["most"]
   },
   {
-    "word": "tone"
+    "word": "tone",
+    alternates: ["note"]
   },
   {
     "word": "tong"
   },
   {
-    "word": "tons"
-  },
-  {
     "word": "took"
   },
   {
-    "word": "tool"
+    "word": "tool",
+    alternates: ["loot"]
   },
   {
     "word": "toon"
@@ -6756,10 +6844,12 @@ export const fourLetterWords = [
     "word": "toot"
   },
   {
-    "word": "tops"
+    "word": "tops",
+    alternates: ["post", "stop", "pots", "opts"]
   },
   {
-    "word": "tore"
+    "word": "tore",
+    alternates: ["rote"]
   },
   {
     "word": "torn"
@@ -6768,40 +6858,41 @@ export const fourLetterWords = [
     "word": "tory"
   },
   {
-    "word": "tosh"
+    "word": "tosh",
+    alternates: ["host", "hots", "shot"]
   },
   {
-    "word": "toss"
+    "word": "toss",
+    alternates: ["sots"]
   },
   {
     "word": "tote"
   },
   {
-    "word": "tots"
-  },
-  {
-    "word": "tour"
+    "word": "tour",
+    alternates: ["rout"]
   },
   {
     "word": "tout"
   },
   {
-    "word": "town"
-  },
-  {
-    "word": "tows"
+    "word": "town",
+    alternates: ["wont", "nowt"]
   },
   {
     "word": "toys"
   },
   {
-    "word": "trad"
+    "word": "trad",
+    alternates: ["dart", "drat"]
   },
   {
-    "word": "tram"
+    "word": "tram",
+    alternates: ["mart"]
   },
   {
-    "word": "trap"
+    "word": "trap",
+    alternates: ["part", "rapt", "prat"]
   },
   {
     "word": "tray"
@@ -6831,16 +6922,14 @@ export const fourLetterWords = [
     "word": "true"
   },
   {
-    "word": "tsar"
-  },
-  {
     "word": "tuba"
   },
   {
     "word": "tube"
   },
   {
-    "word": "tubs"
+    "word": "tubs",
+    alternates: ["bust", "stub", "buts"]
   },
   {
     "word": "tuck"
@@ -6849,13 +6938,16 @@ export const fourLetterWords = [
     "word": "tuft"
   },
   {
-    "word": "tugs"
+    "word": "tugs",
+    alternates: ["guts", "gust"]
   },
   {
-    "word": "tums"
+    "word": "tums",
+    alternates: ["must"]
   },
   {
-    "word": "tuna"
+    "word": "tuna",
+    alternates: ["aunt"]
   },
   {
     "word": "tune"
@@ -6867,10 +6959,12 @@ export const fourLetterWords = [
     "word": "turk"
   },
   {
-    "word": "turn"
+    "word": "turn",
+    alternates: ["runt"]
   },
   {
-    "word": "tush"
+    "word": "tush",
+    alternates: ["shut", "huts", "thus"]
   },
   {
     "word": "tusk"
@@ -6894,9 +6988,6 @@ export const fourLetterWords = [
     "word": "twit"
   },
   {
-    "word": "twos"
-  },
-  {
     "word": "tyke"
   },
   {
@@ -6907,9 +6998,6 @@ export const fourLetterWords = [
   },
   {
     "word": "tyre"
-  },
-  {
-    "word": "tzar"
   },
   {
     "word": "ugly"
@@ -6939,13 +7027,16 @@ export const fourLetterWords = [
     "word": "uric"
   },
   {
-    "word": "urns"
+    "word": "urns",
+    alternates: ["runs"]
   },
   {
-    "word": "used"
+    "word": "used",
+    alternates: ["sued", "dues"]
   },
   {
-    "word": "user"
+    "word": "user",
+    alternates: ["rues", "sure", "ruse"]
   },
   {
     "word": "uses"
@@ -6954,7 +7045,8 @@ export const fourLetterWords = [
     "word": "vain"
   },
   {
-    "word": "vale"
+    "word": "vale",
+    alternates: ["veal"]
   },
   {
     "word": "vamp"
@@ -6963,31 +7055,34 @@ export const fourLetterWords = [
     "word": "vane"
   },
   {
-    "word": "vans"
+    "word": "vans",
+    alternates: ["navs"]
   },
   {
-    "word": "vape"
+    "word": "vape",
+    alternates: ["pave"]
   },
   {
     "word": "vary"
   },
   {
-    "word": "vase"
+    "word": "vase",
+    alternates: ["save"]
   },
   {
-    "word": "vast"
+    "word": "vast",
+    alternates: ["vats"]
   },
   {
-    "word": "vats"
+    "word": "vats",
+    alternates: ["vast"]
   },
   {
-    "word": "veal"
+    "word": "veal",
+    alternates: ["vale"]
   },
   {
     "word": "veer"
-  },
-  {
-    "word": "veil"
   },
   {
     "word": "vein"
@@ -7005,13 +7100,16 @@ export const fourLetterWords = [
     "word": "very"
   },
   {
-    "word": "vest"
+    "word": "vest",
+    alternates: ["vets"]
   },
   {
-    "word": "veto"
+    "word": "veto",
+    alternates: ["vote"]
   },
   {
-    "word": "vets"
+    "word": "vets",
+    alternates: ["vest"]
   },
   {
     "word": "vial"
@@ -7023,16 +7121,19 @@ export const fourLetterWords = [
     "word": "vice"
   },
   {
-    "word": "vids"
+    "word": "vids",
+    alternates: ["divs"]
   },
   {
-    "word": "vied"
+    "word": "vied",
+    alternates: ["dive"]
   },
   {
     "word": "view"
   },
   {
-    "word": "vile"
+    "word": "vile",
+    alternates: ["live", "evil", "veil"]
   },
   {
     "word": "vine"
@@ -7056,13 +7157,15 @@ export const fourLetterWords = [
     "word": "void"
   },
   {
-    "word": "vole"
+    "word": "vole",
+    alternates: ["love"]
   },
   {
     "word": "volt"
   },
   {
-    "word": "vote"
+    "word": "vote",
+    alternates: ["veto"]
   },
   {
     "word": "vows"
@@ -7080,7 +7183,8 @@ export const fourLetterWords = [
     "word": "wage"
   },
   {
-    "word": "wags"
+    "word": "wags",
+    alternates: ["swag"]
   },
   {
     "word": "waif"
@@ -7092,7 +7196,8 @@ export const fourLetterWords = [
     "word": "wait"
   },
   {
-    "word": "wake"
+    "word": "wake",
+    alternates: ["weak"]
   },
   {
     "word": "walk"
@@ -7107,10 +7212,12 @@ export const fourLetterWords = [
     "word": "want"
   },
   {
-    "word": "ward"
+    "word": "ward",
+    alternates: ["draw"]
   },
   {
-    "word": "ware"
+    "word": "ware",
+    alternates: ["wear"]
   },
   {
     "word": "warm"
@@ -7119,10 +7226,8 @@ export const fourLetterWords = [
     "word": "warn"
   },
   {
-    "word": "warp"
-  },
-  {
-    "word": "wars"
+    "word": "warp",
+    alternates: ["wrap"]
   },
   {
     "word": "wart"
@@ -7134,10 +7239,16 @@ export const fourLetterWords = [
     "word": "wash"
   },
   {
-    "word": "wasp"
+    "word": "wasp",
+    alternates: ["swap", "paws"]
   },
   {
-    "word": "watt"
+    "word": "watt",
+    alternates: ["twat"]
+  },
+   {
+    "word": "cunt",
+    alternates: []
   },
   {
     "word": "wave"
@@ -7149,19 +7260,20 @@ export const fourLetterWords = [
     "word": "waxy"
   },
   {
-    "word": "ways"
+    "word": "ways",
+    alternates: "sway"
   },
   {
-    "word": "weak"
+    "word": "weak",
+    alternates: ["wake"]
   },
   {
-    "word": "weal"
+    "word": "wean",
+    alternates: ["wane"]
   },
   {
-    "word": "wean"
-  },
-  {
-    "word": "wear"
+    "word": "wear",
+    alternates: ["ware"]
   },
   {
     "word": "webs"
@@ -7194,7 +7306,8 @@ export const fourLetterWords = [
     "word": "welt"
   },
   {
-    "word": "went"
+    "word": "went",
+    alternates: ["newt"]
   },
   {
     "word": "wept"
@@ -7203,16 +7316,15 @@ export const fourLetterWords = [
     "word": "were"
   },
   {
-    "word": "west"
-  },
-  {
-    "word": "wets"
+    "word": "west",
+    alternates: ["wets", "stew"]
   },
   {
     "word": "wham"
   },
   {
-    "word": "what"
+    "word": "what",
+    alternates: ["thaw"]
   },
   {
     "word": "when"
@@ -7260,7 +7372,8 @@ export const fourLetterWords = [
     "word": "wife"
   },
   {
-    "word": "wigs"
+    "word": "wigs",
+    alternates: ["swig"]
   },
   {
     "word": "wild"
@@ -7317,16 +7430,10 @@ export const fourLetterWords = [
     "word": "wisp"
   },
   {
-    "word": "wist"
-  },
-  {
     "word": "with"
   },
   {
     "word": "wits"
-  },
-  {
-    "word": "woad"
   },
   {
     "word": "woes"
@@ -7341,16 +7448,15 @@ export const fourLetterWords = [
     "word": "wold"
   },
   {
-    "word": "wolf"
+    "word": "wolf",
+    alternates: ["flow"]
   },
   {
     "word": "womb"
   },
   {
-    "word": "wonk"
-  },
-  {
-    "word": "wont"
+    "word": "wonk",
+    alternates: ["know"]
   },
   {
     "word": "wood"
@@ -7368,7 +7474,8 @@ export const fourLetterWords = [
     "word": "word"
   },
   {
-    "word": "wore"
+    "word": "wore",
+    alternates: ["ower"]
   },
   {
     "word": "work"
@@ -7380,16 +7487,14 @@ export const fourLetterWords = [
     "word": "worn"
   },
   {
-    "word": "wort"
-  },
-  {
     "word": "wove"
   },
   {
     "word": "wows"
   },
   {
-    "word": "wrap"
+    "word": "wrap",
+    alternates: ["warp"]
   },
   {
     "word": "wren"
@@ -7404,19 +7509,18 @@ export const fourLetterWords = [
     "word": "yaks"
   },
   {
-    "word": "yams"
-  },
-  {
     "word": "yank"
   },
   {
-    "word": "yaps"
+    "word": "yaps",
+    alternates: ["pays", "spay"]
   },
   {
     "word": "yard"
   },
   {
-    "word": "yarn"
+    "word": "yarn",
+    alternates: ["nary"]
   },
   {
     "word": "yawn"
@@ -7437,7 +7541,8 @@ export const fourLetterWords = [
     "word": "yeti"
   },
   {
-    "word": "yobs"
+    "word": "yobs",
+    alternates: ["boys"]
   },
   {
     "word": "yoga"
