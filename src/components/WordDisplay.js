@@ -10,6 +10,7 @@ import ActualWord from './ActualWord';
 const WordDisplay = (props) => {
 
 	const [wrong, setWrong] = useState(false);
+	const [placeholderText, setPlaceholderText] = useState("Good luck")
 
 	
 
@@ -17,6 +18,7 @@ const WordDisplay = (props) => {
 		event.preventDefault();
 		props.textChange(event.target.value);
 		setWrong(false);
+		setPlaceholderText("");
 	};
 
 
@@ -29,12 +31,17 @@ const WordDisplay = (props) => {
 			correctAnswer();
 			event.target.reset();
 			props.nextWord();
-			props.textChange('')
+			props.textChange('');
+			setPlaceholderText("Well done!")
 		} else if
 			(!props.enteredText) {
 				props.nextWord();
+				setPlaceholderText("Keep going!")
 		} else {
 			setWrong(true);
+			setPlaceholderText("Try another word");
+			event.target.reset();
+			props.textChange("");
 		};
 
 	};
@@ -57,7 +64,7 @@ const WordDisplay = (props) => {
 			}
 	};
 
-	
+
 
 		return (
 			<div className="game-container">
@@ -66,7 +73,7 @@ const WordDisplay = (props) => {
 				<form className="ui inverted form" onChange={onChange} onSubmit={onSubmit} >
 					<div className="ui input focus">
   						<input type="text"
-  								 placeholder="Good luck"
+  								 placeholder={placeholderText}
   								 className={wrong ? "wrong" : "normal"}  />
 					</div>
 				</form>

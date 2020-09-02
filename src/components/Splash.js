@@ -12,8 +12,14 @@ const Splash = (props) => {
     }
 
 	return (
-		<div className="game-container">
-				<h1>Word Wolf</h1>
+		<div className="splash-container">
+				<h1 className="splash-text">Word Wolf</h1>
+				<ul>
+					<li><h3>Unscramble words to score points</h3></li>
+					<li><h3>Press enter when text field is blank to skip word</h3></li>
+					<li><h3>Use the buttons below the text field to change word length</h3></li>
+					<li><h3>Longer words score higher points!</h3></li>
+				</ul>
 				<button className="ui inverted primary button"
 						onClick={onClick} >Start</button>
 			</div>

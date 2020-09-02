@@ -17,7 +17,7 @@ const GameOverScreen = (props) => {
 
 	return (
 	<div className="game-container">
-				<h1>Game Over</h1>
+				<h1 className="splash-text">Game Over</h1>
 				<h2>Score: {props.points}</h2>
 				<br />
 				<button className="ui inverted primary button"

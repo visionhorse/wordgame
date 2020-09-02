@@ -9,7 +9,7 @@ const Header = (props) => {
 	if (props.gameStarted) { return (
 		<div className="header">
 			<div className="header-title"><h2>Word Wolf</h2></div>
-			<DisplayPersonalBest key={props.personalBest} />
+			<DisplayPersonalBest key={props.personalBest + 1} />
 			<Timer />
 			<PointsDisplay key={props.points} />
 		</div>

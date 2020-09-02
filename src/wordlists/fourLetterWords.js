@@ -1268,7 +1268,8 @@ export const fourLetterWords = [
     "word": "coil"
   },
   {
-    "word": "coin"
+    "word": "coin",
+    alternates: ["icon"]
   },
   {
     "word": "coke"
@@ -3135,7 +3136,8 @@ export const fourLetterWords = [
     "word": "icky"
   },
   {
-    "word": "icon"
+    "word": "icon",
+    alternates: ["coin"]
   },
   {
     "word": "idea"
@@ -3162,7 +3164,8 @@ export const fourLetterWords = [
     alternates: ["sill"]
   },
   {
-    "word": "imam"
+    "word": "imam",
+    alternates: ["maim"]
   },
   {
     "word": "imps"
@@ -3968,7 +3971,8 @@ export const fourLetterWords = [
     "word": "mail"
   },
   {
-    "word": "maim"
+    "word": "maim",
+    alternates: ["imam"]
   },
   {
     "word": "main"
@@ -4515,7 +4519,7 @@ export const fourLetterWords = [
   },
   {
     "word": "nips",
-    alternates: ["pins", "snip"]
+    alternates: ["pins", "snip", "spin"]
   },
   {
     "word": "nite"
@@ -5047,7 +5051,7 @@ export const fourLetterWords = [
   },
   {
     "word": "pins",
-    alternates: ["spin", "snip"]
+    alternates: ["spin", "snip", "nips"]
   },
   {
     "word": "pint"

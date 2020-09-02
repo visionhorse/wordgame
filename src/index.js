@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+// ADD COMPOSE TO ABOVE TO RE-ENABLE DEV TOOLS
+
 // import { createLogger } from 'redux-logger';
+
+
 import thunkMiddleware from 'redux-thunk';
 
 import './index.css';
